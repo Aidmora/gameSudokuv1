@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Pos?>
+
+<?import javafx.scene.control.Label?>
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.SudokuController"
+            style="-fx-background-color: #6AB0B7 ;">
+
+    <!-- Título -->
+    <top>
+        <VBox alignment="CENTER">
+            <children>
+                <Label text="SUDOKU" style="-fx-font-size: 24; -fx-font-weight: bold;" />
+            </children>
+        </VBox>
+    </top>
+
+    <!-- Contenido de la cuadrícula Sudoku -->
+    <center>
+        <GridPane alignment="CENTER" hgap="2" vgap="2" style="-fx-padding: 2px; -fx-border-color: beige; -fx-border-width: 2px;">
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="vboxPrueba">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER" text=""/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="vboxPrueba2">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="0" fx:id="vboxPrueba3">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="0" fx:id="vboxPrueba4">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="0" fx:id="vboxPrueba5">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="0" fx:id="vboxPrueba6">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="0" fx:id="vboxPrueba7">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="0" fx:id="vboxPrueba8">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="0" fx:id="vboxPrueba9">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="vboxPrueba1">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="vboxPrueba12">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="vboxPrueba13">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="vboxPrueba14">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="vboxPrueba15">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="1" fx:id="vboxPrueba16">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="1" fx:id="vboxPrueba17">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="1" fx:id="vboxPrueba18">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="1" fx:id="vboxPrueba19">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;"
+                           maxWidth="50"
+                           maxHeight="100"
+                           alignment="CENTER"/>
+            </VBox>
+
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="2"  fx:id="vboxPrueba20">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="vboxPrueba21">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="vboxPrueba22">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="2" fx:id="vboxPrueba23">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="2" fx:id="vboxPrueba24">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="2" fx:id="vboxPrueba25">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="2" fx:id="vboxPrueba26">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="2" fx:id="vboxPrueba27">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="2" fx:id="vboxPrueba28">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="vboxPrueba30" >
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="vboxPrueba31">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="vboxPrueba32">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="3" fx:id="vboxPrueba33">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="3" fx:id="vboxPrueba34">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="3" fx:id="vboxPrueba35">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="3" fx:id="vboxPrueba36">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="3" fx:id="vboxPrueba37">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="3" fx:id="vboxPrueba38">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="vboxPrueba40">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="vboxPrueba41">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="4" fx:id="vboxPrueba42">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="4" fx:id="vboxPrueba43">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="4" fx:id="vboxPrueba44">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="4" fx:id="vboxPrueba45">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="4" fx:id="vboxPrueba46">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="4" fx:id="vboxPrueba47">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="4" fx:id="vboxPrueba48">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="vboxPrueba50">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="vboxPrueba51">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="5" fx:id="vboxPrueba52">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="5" fx:id="vboxPrueba53">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="5" fx:id="vboxPrueba54">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="5" fx:id="vboxPrueba55">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="5" fx:id="vboxPrueba56">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="5" fx:id="vboxPrueba57">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="5" fx:id="vboxPrueba58">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="vboxPrueba60">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="vboxPrueba61">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="6" fx:id="vboxPrueba62">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="6" fx:id="vboxPrueba63">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="6" fx:id="vboxPrueba64">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="6" fx:id="vboxPrueba65">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="6" fx:id="vboxPrueba66">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="6" fx:id="vboxPrueba67">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="6" fx:id="vboxPrueba68">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="7" fx:id="vboxPrueba70">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="vboxPrueba71">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="7" fx:id="vboxPrueba72">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="7" fx:id="vboxPrueba73">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="7" fx:id="vboxPrueba74">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="7" fx:id="vboxPrueba75">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="7" fx:id="vboxPrueba76">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="7" fx:id="vboxPrueba77">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="7" fx:id="vboxPrueba78">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+
+            <VBox styleClass="rounded-box" GridPane.columnIndex="0" GridPane.rowIndex="8" fx:id="vboxPrueba80">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="vboxPrueba81">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="2" GridPane.rowIndex="8" fx:id="vboxPrueba82">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="3" GridPane.rowIndex="8" fx:id="vboxPrueba83">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="4" GridPane.rowIndex="8" fx:id="vboxPrueba84">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="5" GridPane.rowIndex="8" fx:id="vboxPrueba85">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="6" GridPane.rowIndex="8" fx:id="vboxPrueba86">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="7" GridPane.rowIndex="8" fx:id="vboxPrueba87">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+            <VBox styleClass="rounded-box" GridPane.columnIndex="8" GridPane.rowIndex="8" fx:id="vboxPrueba88">
+                <TextField style="-fx-background-color: beige; -fx-font-size: 16;" maxWidth="50" maxHeight="100" alignment="CENTER"/>
+            </VBox>
+        </GridPane>
+    </center>
+
+    <!-- Estilo CSS -->
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+</BorderPane>
